@@ -1,0 +1,23 @@
+.todo-form {
+  width: 100%;
+}
+
+.todo-form-field {
+  margin-bottom: 16px !important;
+}
+
+.todo-form-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.todo-form-submit {
+  background-color: #1976d2 !important;
+  color: white !important;
+}
+
+.todo-form-cancel {
+  background-color: #f5f5f5 !important;
+  color: #666 !important;
+}

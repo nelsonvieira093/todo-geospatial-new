@@ -1,0 +1,47 @@
+.home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.home-main-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
+.home-form-container {
+  margin-bottom: 16px;
+}
+
+.home-tabs-container {
+  margin-bottom: 16px;
+}
+
+.home-content-paper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.home-list-container {
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.home-dashboard-container {
+  flex: 1;
+  overflow: auto;
+}
