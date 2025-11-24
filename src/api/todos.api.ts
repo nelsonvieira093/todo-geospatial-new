@@ -1,5 +1,5 @@
 // Mock API com Axios — simula servidor real
-import type { Todo } from '../types';
+import type { Todo } from '../types/Todo';
 
 // Mock local em memória
 let todos: Todo[] = [];

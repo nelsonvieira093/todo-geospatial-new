@@ -1,5 +1,5 @@
 // Drawer simples para detalhes
-import type { Todo } from '../types';
+import type { Todo } from '../types/Todo';
 
 export function TaskDrawer({ todo }: { todo: Todo | null }) {
   if (!todo) return null;
