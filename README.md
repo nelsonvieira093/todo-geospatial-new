@@ -73,8 +73,10 @@ npm run test - Executar testes
 npm run format - Formatar código com Prettier
 
 🌐 Deploy
-A aplicação está disponível em: https://seu-app.netlify.app
+A aplicação está disponível em: https://todo-geospatial-new.netlify.app/
+![alt text](image.png)
 
+Github:   https://github.com/nelsonvieira093/todo-geospatial-new
 
 
 Desenvolvido como teste técnico demonstrando habilidades em React, TypeScript e ecossistema moderno de frontend.

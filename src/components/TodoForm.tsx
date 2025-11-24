@@ -37,7 +37,7 @@ interface TodoFormProps {
 
 export function TodoForm({ onSubmit, initialData }: TodoFormProps) {
   const [mapDialogOpen, setMapDialogOpen] = useState(false);
-  //const [selectedLocation, setSelectedLocation] = useState<{lat: number; lng: number} | null>(null);
+  const [selectedLocation, setSelectedLocation] = useState<{lat: number; lng: number} | null>(null);
 
   const { register, handleSubmit, formState:{errors}, setValue, watch } = useForm<TodoFormData>({
     resolver: zodResolver(schema),
@@ -304,9 +304,7 @@ export function TodoForm({ onSubmit, initialData }: TodoFormProps) {
             Clique em qualquer lugar do mapa para selecionar a localização
           </Typography>
           <TodoMap 
-            todos={[]}
-            onMapClick={handleMapClick}
-            selectMode={true}
+            {...({ todos: [], onMapClick: handleMapClick, selectMode: true } as any)}
           />
         </DialogContent>
       </Dialog>
